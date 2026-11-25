@@ -1,0 +1,48 @@
+WARNING: Command group 'containerapp job logs' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus
+WARNING: No replica provided, defaulting to latest replica: job-swiss-rail-3evilpd-tvjpk
+2026-11-25T09:24:25.85191  Connecting to the container 'pipeline'...
+2026-11-25T09:24:25.93251  Successfully Connected to container: 'pipeline' [Execution: 'job-swiss-rail-3evilpd', Replica: 'job-swiss-rail-3evilpd-tvjpk']
+2026-11-25T09:23:19.5278188Z stderr F 09:23:19.523 | INFO    | prefect - Starting temporary server on http://127.0.0.1:8906
+2026-11-25T09:23:19.5278566Z stderr F See https://www.prefect.io/docs/v3/concepts/server#how-to-guides for more information on running a dedicated Prefect server.
+2026-11-25T09:23:31.8894273Z stderr F 09:23:31.886 | INFO    | Flow run 'bulky-chameleon' - Beginning flow run 'bulky-chameleon' for flow 'swiss-rail-monthly'
+2026-11-25T09:23:32.8232302Z stderr F 09:23:32.822 | INFO    | Task run 'extract_task-a98' - Finished in state Completed()
+2026-11-25T09:23:35.9096235Z stderr F 09:23:35.908 | INFO    | Task run 'bronze_task-844' - Finished in state Completed()
+2026-11-25T09:23:42.0791460Z stderr F 09:23:42.078 | INFO    | Task run 'transform_task-09e' - Finished in state Completed()
+2026-11-25T09:23:50.9611063Z stderr F 09:23:50.957 | INFO    | Task run 'publish_task-f4c' - Finished in state Completed()
+2026-11-25T09:23:51.0133656Z stderr F 09:23:51.012 | INFO    | Flow run 'bulky-chameleon' - {
+2026-11-25T09:23:51.0134024Z stderr F   "run_id": "5b220f4a-f5a1-4040-8218-e8adf216e3f4",
+2026-11-25T09:23:51.0134185Z stderr F   "source": {
+2026-11-25T09:23:51.0134212Z stderr F     "fetched_at": "2026-11-25T09:23:32.817791+00:00",
+2026-11-25T09:23:51.0134234Z stderr F     "source_url": "https://data.sbb.ch/api/explore/v2.1/catalog/datasets/passagierfrequenz/exports/json",
+2026-11-25T09:23:51.0134256Z stderr F     "sha256": "796179093a4bfa5c456ecb0b936bbc3c05420ad74a7429a225d7063e2317ade4",
+2026-11-25T09:23:51.0134277Z stderr F     "rows": 5724,
+2026-11-25T09:23:51.0134297Z stderr F     "bytes": 2391585,
+2026-11-25T09:23:51.0134315Z stderr F     "counts_by_year": {
+2026-11-25T09:23:51.0134333Z stderr F       "2018": 1158,
+2026-11-25T09:23:51.0134397Z stderr F       "2022": 1159,
+2026-11-25T09:23:51.0134417Z stderr F       "2023": 1156,
+2026-11-25T09:23:51.0134435Z stderr F       "2024": 1156,
+2026-11-25T09:23:51.0134452Z stderr F       "2025": 1095
+2026-11-25T09:23:51.0134469Z stderr F     },
+2026-11-25T09:23:51.0134488Z stderr F     "publisher": "SBB Personenverkehr",
+2026-11-25T09:23:51.0134506Z stderr F     "license": {
+2026-11-25T09:23:51.0134532Z stderr F       "domain": "schweizerische-bundesbahnen-sbb",
+2026-11-25T09:23:51.0134544Z stderr F       "license": "terms_by",
+2026-11-25T09:23:51.0134556Z stderr F       "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+2026-11-25T09:23:51.0134567Z stderr F     },
+2026-11-25T09:23:51.0134578Z stderr F     "source_modified": "2026-11-17T14:44:35+00:00",
+2026-11-25T09:23:51.0134589Z stderr F     "grain": "station code and reference year",
+2026-11-25T09:23:51.0134601Z stderr F     "metrics": "Average daily boardings plus alightings, not unique passengers or annual totals"
+2026-11-25T09:23:51.0134627Z stderr F   },
+2026-11-25T09:23:51.0134638Z stderr F   "destination": "ADLS Gen2 and Azure SQL",
+2026-11-25T09:23:51.0134649Z stderr F   "row_counts": {
+2026-11-25T09:23:51.0135259Z stderr F     "dim_station": 1178,
+2026-11-25T09:23:51.0135288Z stderr F     "fct_station_usage": 5724,
+2026-11-25T09:23:51.0135305Z stderr F     "mart_station_year": 5724,
+2026-11-25T09:23:51.0135316Z stderr F     "mart_canton_year": 130,
+2026-11-25T09:23:51.0135327Z stderr F     "mart_common_cohort_year": 5
+2026-11-25T09:23:51.0135338Z stderr F   },
+2026-11-25T09:23:51.0135349Z stderr F   "status": "SUCCESS"
+2026-11-25T09:23:51.0135360Z stderr F }
+2026-11-25T09:23:51.0374820Z stderr F 09:23:51.036 | INFO    | Flow run 'bulky-chameleon' - Finished in state Completed()
+2026-11-25T09:23:51.0574621Z stderr F 09:23:51.056 | INFO    | prefect - Stopping temporary server on http://127.0.0.1:8906

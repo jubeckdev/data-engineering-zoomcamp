@@ -1,0 +1,59 @@
+{
+  "verified_at": "2026-11-23T16:40:50.293004+00:00",
+  "engine": "DuckDB 1.4.3",
+  "files": [
+    {
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet",
+      "file": "yellow_tripdata_2024-01.parquet",
+      "bytes": 49961641,
+      "sha256": "c4d59da7bbc8abaeeeb1727947ee93d9891a71acb42854bd80db1571b2030510",
+      "rows": 2964624,
+      "zero_fares": 893
+    },
+    {
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet",
+      "file": "yellow_tripdata_2024-02.parquet",
+      "bytes": 50349284,
+      "sha256": "c76c43c18c6c6664080dd920baab4928988d5786a6b65980792ca7cd796f9f20",
+      "rows": 3007526,
+      "zero_fares": 844
+    },
+    {
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-03.parquet",
+      "file": "yellow_tripdata_2024-03.parquet",
+      "bytes": 60078280,
+      "sha256": "2d4cdc8fb96726cdd3803b13b02d2e61e71d45720aff0ebc693a8bdd1f249823",
+      "rows": 3582628,
+      "zero_fares": 1292
+    },
+    {
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-04.parquet",
+      "file": "yellow_tripdata_2024-04.parquet",
+      "bytes": 59133625,
+      "sha256": "ce37f736c7cf9e92164c850ef2b502a8f7bb590fc1804b6edbcb80293da01b89",
+      "rows": 3514289,
+      "zero_fares": 1308
+    },
+    {
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-05.parquet",
+      "file": "yellow_tripdata_2024-05.parquet",
+      "bytes": 62553128,
+      "sha256": "1974230be2b5a3ea92e47b5eb77f32dbf1de896d81ad8df4ab6faba52749ad23",
+      "rows": 3723833,
+      "zero_fares": 2618
+    },
+    {
+      "url": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-06.parquet",
+      "file": "yellow_tripdata_2024-06.parquet",
+      "bytes": 59859922,
+      "sha256": "677cf14c8347f745b583f012fbdba072334c6c4efa17bfd6a64369f2ba30329c",
+      "rows": 3539193,
+      "zero_fares": 1378
+    }
+  ],
+  "rows": 20332093,
+  "zero_fares": 8333,
+  "distinct_pickup_locations": 262,
+  "bigquery_executed": false,
+  "bigquery_estimated_bytes": null
+}

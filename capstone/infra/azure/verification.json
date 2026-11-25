@@ -1,0 +1,20 @@
+{
+  "verified_at_utc": "2026-11-23T11:35:17.288385+00:00",
+  "storage_account": "stzoomcamp673ff7ee",
+  "settings": {
+    "anonymous": false,
+    "hns": true,
+    "location": "switzerlandnorth",
+    "sharedKeys": false
+  },
+  "filesystems": [
+    "bronze",
+    "gold",
+    "silver"
+  ],
+  "authentication": "Azure CLI / Entra ID",
+  "roundtrip_sha256": "f56487dc7ac2d8015717304e337334c5594476b39d80097a5ed761e0fc5baa81",
+  "roundtrip_passed": true,
+  "test_blob_deleted": true,
+  "compute_deployed": false
+}

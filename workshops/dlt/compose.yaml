@@ -1,0 +1,7 @@
+name: zoomcamp-dlt
+services:
+  pipeline:
+    build: .
+    volumes:
+      - ./runtime:/app/runtime
+      - ./results:/app/results

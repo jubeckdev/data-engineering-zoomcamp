@@ -1,0 +1,13 @@
+id: schedule_example
+namespace: zoomcamp.module2
+description: Disabled teaching example; use backfill_2021 for the fixed homework data.
+tasks:
+  - id: explain
+    type: io.kestra.plugin.core.log.Log
+    message: Schedule timezone is America/New_York and observes daylight-saving changes.
+triggers:
+  - id: monthly
+    type: io.kestra.plugin.core.trigger.Schedule
+    cron: "0 9 1 * *"
+    timezone: America/New_York
+    disabled: true

@@ -1,0 +1,56 @@
+name: zoomcamp-streaming
+services:
+  redpanda:
+    image: redpandadata/redpanda:v25.3.9
+    command: [redpanda, start, --smp, '1', --memory, 512M, --reserve-memory, 0M, --overprovisioned, --node-id, '1', --kafka-addr, 'PLAINTEXT://0.0.0.0:29092,OUTSIDE://0.0.0.0:9092', --advertise-kafka-addr, 'PLAINTEXT://redpanda:29092,OUTSIDE://localhost:9092']
+    ports: ['127.0.0.1:9092:9092']
+    volumes: [redpanda:/var/lib/redpanda/data]
+    healthcheck:
+      test: [CMD, rpk, cluster, health, --exit-when-healthy]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: streaming
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: local-only-password
+    ports: ['127.0.0.1:5434:5432']
+    volumes:
+      - postgres:/var/lib/postgresql/data
+      - ./code/sinks.sql:/docker-entrypoint-initdb.d/sinks.sql:ro
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U postgres -d streaming]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  jobmanager:
+    build: ./code
+    image: zoomcamp-streaming-flink:2.2.0
+    command: jobmanager
+    ports: ['127.0.0.1:8081:8081']
+    volumes:
+      - ./code:/opt/src/job:ro
+      - ./homework:/opt/src/homework
+    environment:
+      FLINK_PROPERTIES: |
+        jobmanager.rpc.address: jobmanager
+        jobmanager.memory.process.size: 1600m
+  taskmanager:
+    image: zoomcamp-streaming-flink:2.2.0
+    pull_policy: never
+    command: taskmanager
+    depends_on: [jobmanager]
+    volumes:
+      - ./code:/opt/src/job:ro
+      - ./homework:/opt/src/homework
+    environment:
+      FLINK_PROPERTIES: |
+        jobmanager.rpc.address: jobmanager
+        taskmanager.memory.process.size: 2048m
+        taskmanager.numberOfTaskSlots: 3
+        parallelism.default: 1
+volumes:
+  redpanda:
+  postgres:

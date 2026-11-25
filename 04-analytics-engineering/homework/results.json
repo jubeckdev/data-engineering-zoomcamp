@@ -1,0 +1,49 @@
+{
+  "verified_at": "2026-11-24T12:16:24.945009+00:00",
+  "target": "prod",
+  "source_files": 60,
+  "duckdb_version": "1.4.3",
+  "results": {
+    "q3_monthly_revenue_rows": {
+      "sql": "SELECT COUNT(*) FROM prod.fct_monthly_zone_revenue",
+      "rows": [
+        [
+          12184
+        ]
+      ]
+    },
+    "q4_green_2020_top_zone": {
+      "sql": "SELECT pickup_zone, SUM(revenue_monthly_total_amount) revenue FROM prod.fct_monthly_zone_revenue WHERE service_type='Green' AND revenue_month >= '2020-01-01' AND revenue_month < '2021-01-01' GROUP BY 1 ORDER BY 2 DESC LIMIT 1",
+      "rows": [
+        [
+          "East Harlem North",
+          "1815309.550"
+        ]
+      ]
+    },
+    "q5_green_october_2019_trips": {
+      "sql": "SELECT SUM(total_monthly_trips) FROM prod.fct_monthly_zone_revenue WHERE service_type='Green' AND revenue_month='2019-10-01'",
+      "rows": [
+        [
+          384624
+        ]
+      ]
+    },
+    "q6_fhv_staged_rows": {
+      "sql": "SELECT COUNT(*) FROM prod.stg_fhv_tripdata",
+      "rows": [
+        [
+          43244693
+        ]
+      ]
+    },
+    "fact_rows": {
+      "sql": "SELECT COUNT(*) FROM prod.fct_trips",
+      "rows": [
+        [
+          112086662
+        ]
+      ]
+    }
+  }
+}

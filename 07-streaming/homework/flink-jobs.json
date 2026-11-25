@@ -1,0 +1,96 @@
+{
+  "jobs": [
+    {
+      "jid": "615f630ddddd11e120e180f2a8104d50",
+      "name": "insert-into_default_catalog.default_database.result_sink",
+      "start-time": 1795455203808,
+      "end-time": 1795455206824,
+      "duration": 3016,
+      "state": "FINISHED",
+      "last-modification": 1795455206824,
+      "tasks": {
+        "running": 0,
+        "canceling": 0,
+        "canceled": 0,
+        "total": 2,
+        "created": 0,
+        "scheduled": 0,
+        "deploying": 0,
+        "reconciling": 0,
+        "finished": 2,
+        "initializing": 0,
+        "failed": 0
+      },
+      "pending-operators": 0
+    },
+    {
+      "jid": "7bcaa833fc6b5ede0ab427937716626a",
+      "name": "insert-into_default_catalog.default_database.result_sink",
+      "start-time": 1795452849472,
+      "end-time": 1795452852146,
+      "duration": 2674,
+      "state": "FINISHED",
+      "last-modification": 1795452852146,
+      "tasks": {
+        "running": 0,
+        "canceling": 0,
+        "canceled": 0,
+        "total": 2,
+        "created": 0,
+        "scheduled": 0,
+        "deploying": 0,
+        "reconciling": 0,
+        "finished": 2,
+        "initializing": 0,
+        "failed": 0
+      },
+      "pending-operators": 0
+    },
+    {
+      "jid": "2e505580dad104484a5cd51ddd6b8c8e",
+      "name": "insert-into_default_catalog.default_database.result_sink",
+      "start-time": 1795452831071,
+      "end-time": 1795452834536,
+      "duration": 3465,
+      "state": "FINISHED",
+      "last-modification": 1795452834536,
+      "tasks": {
+        "running": 0,
+        "canceling": 0,
+        "canceled": 0,
+        "total": 2,
+        "created": 0,
+        "scheduled": 0,
+        "deploying": 0,
+        "reconciling": 0,
+        "finished": 2,
+        "initializing": 0,
+        "failed": 0
+      },
+      "pending-operators": 0
+    },
+    {
+      "jid": "346bdb5450c5ba7b22aa2f1f16c97022",
+      "name": "insert-into_default_catalog.default_database.result_sink",
+      "start-time": 1795452757089,
+      "end-time": 1795452764164,
+      "duration": 7075,
+      "state": "FINISHED",
+      "last-modification": 1795452764164,
+      "tasks": {
+        "running": 0,
+        "canceling": 0,
+        "canceled": 0,
+        "total": 2,
+        "created": 0,
+        "scheduled": 0,
+        "deploying": 0,
+        "reconciling": 0,
+        "finished": 2,
+        "initializing": 0,
+        "failed": 0
+      },
+      "pending-operators": 0
+    }
+  ]
+}

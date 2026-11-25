@@ -1,0 +1,8 @@
+**/.venv
+runtime
+evidence
+infra
+config.local.json
+dbt/target
+dbt/logs
+**/__pycache__

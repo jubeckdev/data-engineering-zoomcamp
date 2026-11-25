@@ -1,0 +1,542 @@
+{
+  "green_tripdata_2019-01": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-01.csv.gz",
+    "csv_gzip_sha256": "9c15796633d47fa633a5fb236e01c845088492cf14d59f85a11e84a4fd6088e2",
+    "csv_gzip_bytes": 11099245,
+    "rows": 630918,
+    "parquet_bytes": 9937446,
+    "converted_at": "2026-11-23T16:42:03.556004+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-02": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-02.csv.gz",
+    "csv_gzip_sha256": "5cd5e708924f8b85512806ad1e239535e4292dcb18960b90681b999fc44ae785",
+    "csv_gzip_bytes": 10376032,
+    "rows": 575685,
+    "parquet_bytes": 9192931,
+    "converted_at": "2026-11-23T16:42:09.323329+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-03": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-03.csv.gz",
+    "csv_gzip_sha256": "9cea22ec578ef2333c73f6679f5574c0abf73e3c61c082ff18518ffe5f18a1ec",
+    "csv_gzip_bytes": 10836031,
+    "rows": 601102,
+    "parquet_bytes": 9618848,
+    "converted_at": "2026-11-23T16:42:14.044713+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-04": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-04.csv.gz",
+    "csv_gzip_sha256": "8d4934b00698974bca61ab6c2fe8c89c9e33e7348918195512f56a9795f5367d",
+    "csv_gzip_bytes": 9092312,
+    "rows": 514392,
+    "parquet_bytes": 8054217,
+    "converted_at": "2026-11-23T16:42:17.270945+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-05": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-05.csv.gz",
+    "csv_gzip_sha256": "f7bef4b5ed37ab6d66c6a55e275e814014f9e9260aa49c8f09e83de5fcfd5334",
+    "csv_gzip_bytes": 8884783,
+    "rows": 504887,
+    "parquet_bytes": 7759291,
+    "converted_at": "2026-11-23T16:42:25.119564+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-06": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-06.csv.gz",
+    "csv_gzip_sha256": "587a25d894b4876eed2792b1dbfc6fe9cdc1ce7ee814449c8967e938e733233e",
+    "csv_gzip_bytes": 8295836,
+    "rows": 471052,
+    "parquet_bytes": 7281137,
+    "converted_at": "2026-11-23T16:42:27.374126+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-07": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-07.csv.gz",
+    "csv_gzip_sha256": "30aaccad411cb07d171f7f0c82000d2ce8a61b88541542b9c17224c9a68283ae",
+    "csv_gzip_bytes": 8242122,
+    "rows": 470743,
+    "parquet_bytes": 7243736,
+    "converted_at": "2026-11-23T16:42:29.968783+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-08": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-08.csv.gz",
+    "csv_gzip_sha256": "9bbbbb05e76040d6e73e09d2dd605785e2942b5e51ff5ef6cfd03a017c80e914",
+    "csv_gzip_bytes": 7860096,
+    "rows": 449695,
+    "parquet_bytes": 6883545,
+    "converted_at": "2026-11-23T16:42:32.787293+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-09": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-09.csv.gz",
+    "csv_gzip_sha256": "55990935c92ab144a47d87af3df6e34e52a977e9e616c9a2f284f25ee38b4a11",
+    "csv_gzip_bytes": 7854533,
+    "rows": 449063,
+    "parquet_bytes": 6880623,
+    "converted_at": "2026-11-23T16:42:36.322886+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-10": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-10.csv.gz",
+    "csv_gzip_sha256": "e324570253b63339b767357ac1cb902c6f30517e3024980f7ebd9dc041d6a6f7",
+    "csv_gzip_bytes": 8262584,
+    "rows": 476386,
+    "parquet_bytes": 7167136,
+    "converted_at": "2026-11-23T16:42:44.628587+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-11": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-11.csv.gz",
+    "csv_gzip_sha256": "37ca241d41f07d44aedc0b6381e717385fce9288b736fdab9378b7b1658ca0ee",
+    "csv_gzip_bytes": 7781029,
+    "rows": 449500,
+    "parquet_bytes": 6778129,
+    "converted_at": "2026-11-23T16:42:47.510966+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2019-12": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-12.csv.gz",
+    "csv_gzip_sha256": "9a039a01b8d28dd958b81e8aa5d969b5b0e35316e90f77bc0c7d30ac84434c70",
+    "csv_gzip_bytes": 7792073,
+    "rows": 450627,
+    "parquet_bytes": 6711266,
+    "converted_at": "2026-11-23T16:42:50.169835+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-01": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-01.csv.gz",
+    "csv_gzip_sha256": "7a39142450928f7117c77e410bb57636d1bd2349792d490b211e24600871d2c9",
+    "csv_gzip_bytes": 7541109,
+    "rows": 447770,
+    "parquet_bytes": 6536992,
+    "converted_at": "2026-11-23T16:42:53.142697+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-02": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-02.csv.gz",
+    "csv_gzip_sha256": "3390a7da64208ba54aca071d13870d65a229635fc2093da4b3b98112866fa227",
+    "csv_gzip_bytes": 6891456,
+    "rows": 398632,
+    "parquet_bytes": 5913274,
+    "converted_at": "2026-11-23T16:42:55.338285+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-03": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-03.csv.gz",
+    "csv_gzip_sha256": "e51ee571eb21231c187fc68977de5eff38b9192a7824657bcb50bba513e01e31",
+    "csv_gzip_bytes": 3917763,
+    "rows": 223406,
+    "parquet_bytes": 3389948,
+    "converted_at": "2026-11-23T16:42:57.051963+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-04": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-04.csv.gz",
+    "csv_gzip_sha256": "69fd60db4f0848f8e3887dba561bf38e06c29a10a92540d3eaee64efddc24ca1",
+    "csv_gzip_bytes": 670357,
+    "rows": 35612,
+    "parquet_bytes": 602971,
+    "converted_at": "2026-11-23T16:42:59.820519+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-05": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-05.csv.gz",
+    "csv_gzip_sha256": "8cbea4b865eff5f6104244a28b7af3675f89f74aa41b514a8ff7882fee198051",
+    "csv_gzip_bytes": 1064127,
+    "rows": 57360,
+    "parquet_bytes": 924022,
+    "converted_at": "2026-11-23T16:43:03.229913+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-06": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-06.csv.gz",
+    "csv_gzip_sha256": "84ddd6fde0236d7b401baa13993abf1ea26e1f2d1f853748f0731dfc24ec9c97",
+    "csv_gzip_bytes": 1154353,
+    "rows": 63109,
+    "parquet_bytes": 1023470,
+    "converted_at": "2026-11-23T16:43:13.896151+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-07": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-07.csv.gz",
+    "csv_gzip_sha256": "32787b3ec8c46c95c4ad1fea33d1e73b7eee2977144b5922e499efb7bca0f189",
+    "csv_gzip_bytes": 1307389,
+    "rows": 72257,
+    "parquet_bytes": 1114992,
+    "converted_at": "2026-11-23T16:43:21.440081+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-08": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-08.csv.gz",
+    "csv_gzip_sha256": "16accfc8103affbb6f29a71c56cf90799ec30f22933e9c3cdaa1fd7cfbac5f1e",
+    "csv_gzip_bytes": 1471367,
+    "rows": 81063,
+    "parquet_bytes": 1241291,
+    "converted_at": "2026-11-23T16:43:26.645838+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-09": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-09.csv.gz",
+    "csv_gzip_sha256": "0cfc05c335ee71eb68f5340552d17c1c43c6a793f487872d84ee63a9a9892200",
+    "csv_gzip_bytes": 1579053,
+    "rows": 87987,
+    "parquet_bytes": 1333613,
+    "converted_at": "2026-11-23T16:43:32.852773+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-10": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-10.csv.gz",
+    "csv_gzip_sha256": "7be29f3aa1d15b4bab629a6ea3af2f631bd30e54e7d1a54039feca5ed015c818",
+    "csv_gzip_bytes": 1709547,
+    "rows": 95120,
+    "parquet_bytes": 1461272,
+    "converted_at": "2026-11-23T16:43:39.479276+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-11": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-11.csv.gz",
+    "csv_gzip_sha256": "adf5e14020e96f4d94c5273d49464ba299c49e74956459b1d1dd2c10902597bf",
+    "csv_gzip_bytes": 1573495,
+    "rows": 88605,
+    "parquet_bytes": 1354578,
+    "converted_at": "2026-11-23T16:43:45.417282+00:00",
+    "native_timestamps": true
+  },
+  "green_tripdata_2020-12": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-12.csv.gz",
+    "csv_gzip_sha256": "e6af4fcc2b588e738be550238f4b72b806c69b2c732e889c599db074a5a85993",
+    "csv_gzip_bytes": 1471066,
+    "rows": 83130,
+    "parquet_bytes": 1265604,
+    "converted_at": "2026-11-23T16:43:51.129691+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-01": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-01.csv.gz",
+    "csv_gzip_sha256": "dd7cc5ffedc1c4cfa38813f284a51b9fa17035b9d97419a705b0cf791beb826c",
+    "csv_gzip_bytes": 134445150,
+    "rows": 7667792,
+    "parquet_bytes": 102705728,
+    "converted_at": "2026-11-23T16:45:56.270482+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-02": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-02.csv.gz",
+    "csv_gzip_sha256": "19c8718e64f72bad16df84c6f3fa21adeb59026f529d1045809443f1e3f33b8f",
+    "csv_gzip_bytes": 128275506,
+    "rows": 7019375,
+    "parquet_bytes": 96127408,
+    "converted_at": "2026-11-23T16:47:31.708169+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-03": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-03.csv.gz",
+    "csv_gzip_sha256": "6f81c722e1104ec5ecd59296447ea94d4c99d7de4ab626846734daeef21c623c",
+    "csv_gzip_bytes": 143692931,
+    "rows": 7832545,
+    "parquet_bytes": 107659147,
+    "converted_at": "2026-11-23T16:48:43.762105+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-04": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-04.csv.gz",
+    "csv_gzip_sha256": "e9dc0ac75b3749f57d1cb1ae8f03d648c74872c60e8c51c517aabe50de10fba3",
+    "csv_gzip_bytes": 136233383,
+    "rows": 7433139,
+    "parquet_bytes": 102051251,
+    "converted_at": "2026-11-23T16:49:35.574511+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-05": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-05.csv.gz",
+    "csv_gzip_sha256": "9d9809baac3d098824f1b0583438343a007160abe0ae6151d2c7736031c0669c",
+    "csv_gzip_bytes": 138963071,
+    "rows": 7565261,
+    "parquet_bytes": 103942998,
+    "converted_at": "2026-11-23T16:50:49.851455+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-06": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-06.csv.gz",
+    "csv_gzip_sha256": "2da67bc9e89b05cfd19ed57a23db9d0f41734046f607d2f2f65a942fcab5059b",
+    "csv_gzip_bytes": 127685708,
+    "rows": 6941024,
+    "parquet_bytes": 96024669,
+    "converted_at": "2026-11-23T16:51:31.566713+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-07": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-07.csv.gz",
+    "csv_gzip_sha256": "304cb394e98d6ba51a9c94d814e56643d021099f1de089df628d7629dcc3efb3",
+    "csv_gzip_bytes": 115817922,
+    "rows": 6310419,
+    "parquet_bytes": 88115861,
+    "converted_at": "2026-11-23T16:51:58.034442+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-08": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-08.csv.gz",
+    "csv_gzip_sha256": "f0bbf824cf0a0043d503de825f7e414c482ad04796e607be5f79d401304bc1f6",
+    "csv_gzip_bytes": 111465721,
+    "rows": 6073357,
+    "parquet_bytes": 85083761,
+    "converted_at": "2026-11-23T16:52:29.114838+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-09": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-09.csv.gz",
+    "csv_gzip_sha256": "1c27535060fa039c4945f4affdb93213797374ac288802638f0e478c0f310d41",
+    "csv_gzip_bytes": 120807645,
+    "rows": 6567788,
+    "parquet_bytes": 91217675,
+    "converted_at": "2026-11-23T16:52:54.878583+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-10": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-10.csv.gz",
+    "csv_gzip_sha256": "9f3f03322a305525611ea1f282501b08e5eb7c78cce46f777e7617f944d22aea",
+    "csv_gzip_bytes": 132413025,
+    "rows": 7213891,
+    "parquet_bytes": 99627995,
+    "converted_at": "2026-11-23T16:53:26.673623+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-11": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-11.csv.gz",
+    "csv_gzip_sha256": "2901745e9ee478f10d8cc25556709291c96f5e95c2c6553f525938e1fdb426ff",
+    "csv_gzip_bytes": 125953067,
+    "rows": 6878111,
+    "parquet_bytes": 94801301,
+    "converted_at": "2026-11-23T16:54:14.576903+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2019-12": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2019-12.csv.gz",
+    "csv_gzip_sha256": "f4e5c548325a95294aa13d9078b06a23c8428d12d2a69ff761624ce99fc60e69",
+    "csv_gzip_bytes": 126446810,
+    "rows": 6896317,
+    "parquet_bytes": 95424285,
+    "converted_at": "2026-11-23T16:58:18.077338+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-01": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-01.csv.gz",
+    "csv_gzip_sha256": "c22394bbe71da7ff2a3f7dca56ce6d62053ccf0c46b16bd9a34639e494113a0b",
+    "csv_gzip_bytes": 116338814,
+    "rows": 6405008,
+    "parquet_bytes": 88419864,
+    "converted_at": "2026-11-23T16:58:58.315803+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-02": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-02.csv.gz",
+    "csv_gzip_sha256": "e4aeb84639ff510e980c92e6c33791454404385714e8f0cf82928f49c13a9b87",
+    "csv_gzip_bytes": 114701110,
+    "rows": 6299354,
+    "parquet_bytes": 86792104,
+    "converted_at": "2026-11-23T16:59:23.965766+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-03": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-03.csv.gz",
+    "csv_gzip_sha256": "3fc37b70ccc973fcdb89ce6487a15305ca099ac2ab71775094e34a11364b9639",
+    "csv_gzip_bytes": 55004095,
+    "rows": 3007292,
+    "parquet_bytes": 42379514,
+    "converted_at": "2026-11-23T16:59:36.514196+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-04": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-04.csv.gz",
+    "csv_gzip_sha256": "7ad8631818f37fb042f0715b76b8327f4278f17ee035c6f39f6a729abef6b66c",
+    "csv_gzip_bytes": 4429528,
+    "rows": 237993,
+    "parquet_bytes": 3752999,
+    "converted_at": "2026-11-23T16:59:38.072922+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-05": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-05.csv.gz",
+    "csv_gzip_sha256": "a7d8c82a61cce4243fb90a5410bcc86a9ff3dbbd59db99dbc94875c38da93e3c",
+    "csv_gzip_bytes": 6528512,
+    "rows": 348371,
+    "parquet_bytes": 5627187,
+    "converted_at": "2026-11-23T16:59:40.245441+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-06": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-06.csv.gz",
+    "csv_gzip_sha256": "7ab1febcdc5b3475ec31c22908a0d03daae2c186e2ec9acf277125bdfcff1c88",
+    "csv_gzip_bytes": 10206684,
+    "rows": 549760,
+    "parquet_bytes": 8740398,
+    "converted_at": "2026-11-23T16:59:43.680674+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-07": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-07.csv.gz",
+    "csv_gzip_sha256": "2275826dca3bbe3ea19946295d87564ddf96501c5d869a593bcdc417a50f3f4c",
+    "csv_gzip_bytes": 14720186,
+    "rows": 800412,
+    "parquet_bytes": 12361145,
+    "converted_at": "2026-11-23T16:59:47.813855+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-08": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-08.csv.gz",
+    "csv_gzip_sha256": "14915db177826023e4a4bccb79486f20d76aedb6f9298a4b240cdd1dc2bac933",
+    "csv_gzip_bytes": 18483087,
+    "rows": 1007284,
+    "parquet_bytes": 15392483,
+    "converted_at": "2026-11-23T16:59:53.142807+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-09": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-09.csv.gz",
+    "csv_gzip_sha256": "9a1ae56df4766e7386bf71fd01d31d9edc171c901ba77d48952bb7554fe20502",
+    "csv_gzip_bytes": 24510334,
+    "rows": 1341012,
+    "parquet_bytes": 20229409,
+    "converted_at": "2026-11-23T17:00:00.993106+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-10": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-10.csv.gz",
+    "csv_gzip_sha256": "051a430fff69a2dc0879690062e4628392b1b46ac08862d88b003dd30379abd6",
+    "csv_gzip_bytes": 30650867,
+    "rows": 1681131,
+    "parquet_bytes": 25054346,
+    "converted_at": "2026-11-23T17:14:49.245414+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-11": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-11.csv.gz",
+    "csv_gzip_sha256": "4a97b619c1cc2d42733196bcaefd840fa4a25119d1227517d8aa503b9f332ec4",
+    "csv_gzip_bytes": 27531023,
+    "rows": 1508985,
+    "parquet_bytes": 22568706,
+    "converted_at": "2026-11-23T17:14:55.177071+00:00",
+    "native_timestamps": true
+  },
+  "yellow_tripdata_2020-12": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2020-12.csv.gz",
+    "csv_gzip_sha256": "801b33a565b876eb075f0f6130b1c9a0b8b66ffcf68ee8074920a5c5eefadf28",
+    "csv_gzip_bytes": 26524738,
+    "rows": 1461897,
+    "parquet_bytes": 21719991,
+    "converted_at": "2026-11-23T17:15:04.126408+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-01": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-01.csv.gz",
+    "csv_gzip_sha256": "d9325d166db56d4779dc5359e439b138a262d42ec953bf4f577e4a230cf8277c",
+    "csv_gzip_bytes": 242185099,
+    "rows": 23143222,
+    "parquet_bytes": 189120214,
+    "converted_at": "2026-11-23T17:33:58.503345+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-02": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-02.csv.gz",
+    "csv_gzip_sha256": "63aca64603ae0237d21761ecb58908558d4c3fa6b36f379e40d8ce4498eb9c98",
+    "csv_gzip_bytes": 15020561,
+    "rows": 1707649,
+    "parquet_bytes": 14518195,
+    "converted_at": "2026-11-23T17:34:02.531807+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-03": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-03.csv.gz",
+    "csv_gzip_sha256": "233155dd5561bd74c517ddbaa127a5562389e15eaf8ad0eaba4f55a38e8eb536",
+    "csv_gzip_bytes": 13328498,
+    "rows": 1475564,
+    "parquet_bytes": 12844943,
+    "converted_at": "2026-11-23T17:34:09.706416+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-04": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-04.csv.gz",
+    "csv_gzip_sha256": "7121df1c4a3fdf09066fbe6ae1fb718c3f0a377db5d33923b74d226707ad94d4",
+    "csv_gzip_bytes": 17196113,
+    "rows": 1937844,
+    "parquet_bytes": 16383148,
+    "converted_at": "2026-11-23T17:34:18.330459+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-05": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-05.csv.gz",
+    "csv_gzip_sha256": "3549e95cd55c26f280389556ce12c94c14c40e8851804f0b291796c0ad9aa601",
+    "csv_gzip_bytes": 18442337,
+    "rows": 2073045,
+    "parquet_bytes": 17431193,
+    "converted_at": "2026-11-23T17:34:23.901602+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-06": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-06.csv.gz",
+    "csv_gzip_sha256": "b00fd7717b42158df3f08d7b16965cbe2ac57b6624fe71caf7fabc17f769130f",
+    "csv_gzip_bytes": 18019362,
+    "rows": 2009886,
+    "parquet_bytes": 17027007,
+    "converted_at": "2026-11-23T17:34:28.432611+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-07": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-07.csv.gz",
+    "csv_gzip_sha256": "03cc4b2de48133fa071e8683e9d5564d5898f7b84616d2890026f517b9f3280a",
+    "csv_gzip_bytes": 17520319,
+    "rows": 1947739,
+    "parquet_bytes": 16579562,
+    "converted_at": "2026-11-23T17:34:36.435543+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-08": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-08.csv.gz",
+    "csv_gzip_sha256": "1ac094e0972f1a1e11731b6bfbbd26a40f7bb4ce2c23bf2bfb80030b29f61060",
+    "csv_gzip_bytes": 17544648,
+    "rows": 1880407,
+    "parquet_bytes": 16545179,
+    "converted_at": "2026-11-23T17:34:42.119920+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-09": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-09.csv.gz",
+    "csv_gzip_sha256": "a230f157a6244a91027e421ffcf516d72ea258885680f5f224b98cfd1a5ddb72",
+    "csv_gzip_bytes": 12591100,
+    "rows": 1248514,
+    "parquet_bytes": 11668418,
+    "converted_at": "2026-11-23T17:34:44.994859+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-10": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-10.csv.gz",
+    "csv_gzip_sha256": "ac01ac931c0bc1f6b4a3c10676d62839e7a33d3ce44c0337fef17c9d212e2710",
+    "csv_gzip_bytes": 19375751,
+    "rows": 1897493,
+    "parquet_bytes": 17678520,
+    "converted_at": "2026-11-23T17:34:48.816512+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-11": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-11.csv.gz",
+    "csv_gzip_sha256": "6699082ce7d243b145eb34510767e483c8d792afb2be9947c6b02508efd61066",
+    "csv_gzip_bytes": 19217187,
+    "rows": 1879137,
+    "parquet_bytes": 17485661,
+    "converted_at": "2026-11-23T17:34:53.505112+00:00",
+    "native_timestamps": true
+  },
+  "fhv_tripdata_2019-12": {
+    "url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/fhv/fhv_tripdata_2019-12.csv.gz",
+    "csv_gzip_sha256": "622e7d6c2e7ae9fe0409da5b36dbe5068073abe6fca4a0935b28a9f60f0c59e4",
+    "csv_gzip_bytes": 20826522,
+    "rows": 2044196,
+    "parquet_bytes": 18958579,
+    "converted_at": "2026-11-23T17:34:59.822398+00:00",
+    "native_timestamps": true
+  }
+}

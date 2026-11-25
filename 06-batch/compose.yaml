@@ -1,0 +1,7 @@
+name: zoomcamp-batch
+services:
+  spark:
+    build: ./code
+    volumes:
+      - ./runtime:/app/runtime
+      - ./homework:/app/homework

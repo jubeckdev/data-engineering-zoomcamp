@@ -1,0 +1,46 @@
+{
+  "observed_at_utc": "2026-11-23T11:33:53.581712+00:00",
+  "source": "https://openlibrary.org/api/books",
+  "requested_isbns": [
+    "9780140328721",
+    "9780451524935",
+    "9780061120084"
+  ],
+  "response_sha256": "91fb5f18327723323c9e36b8ba6b01197f5c92341fe21c5a5e7f65f5c277246c",
+  "dlt_version": "1.32.0",
+  "duckdb_version": "1.4.3",
+  "table_counts": {
+    "books": 3,
+    "books__authors": 3,
+    "books__classifications__lc_classifications": 1,
+    "books__ebooks": 3,
+    "books__excerpts": 4,
+    "books__identifiers__goodreads": 2,
+    "books__identifiers__isbn_10": 2,
+    "books__identifiers__isbn_13": 3,
+    "books__identifiers__librarything": 2,
+    "books__identifiers__openlibrary": 3,
+    "books__identifiers__paperback_swap": 1,
+    "books__links": 12,
+    "books__publish_places": 1,
+    "books__publishers": 3,
+    "books__subject_people": 36,
+    "books__subject_places": 22,
+    "books__subject_times": 4,
+    "books__subjects": 203
+  },
+  "book_titles": [
+    [
+      "ISBN:9780061120084",
+      "To Kill a Mockingbird"
+    ],
+    [
+      "ISBN:9780140328721",
+      "Fantastic Mr. Fox"
+    ],
+    [
+      "ISBN:9780451524935",
+      "1984"
+    ]
+  ]
+}

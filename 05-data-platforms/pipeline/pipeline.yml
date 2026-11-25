@@ -1,0 +1,12 @@
+name: nyc_taxi_portfolio
+schedule: daily
+start_date: "2025-10-01"
+default_connections:
+  duckdb: duckdb-default
+variables:
+  taxi_types:
+    type: array
+    items:
+      type: string
+      enum: [green, yellow]
+    default: [green, yellow]

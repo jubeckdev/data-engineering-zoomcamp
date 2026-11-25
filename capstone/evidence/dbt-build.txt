@@ -1,0 +1,48 @@
+16:59:05  Running with dbt=1.12.7
+16:59:05  Registered adapter: duckdb=1.10.0
+16:59:06  Found 6 models, 12 data tests, 1 source, 485 macros
+16:59:06
+16:59:06  Concurrency: 1 threads (target='prod')
+16:59:06
+16:59:06  1 of 18 START sql table model analytics.stg_station_usage ...................... [RUN]
+16:59:07  1 of 18 OK created sql table model analytics.stg_station_usage ................. [OK in 0.17s]
+16:59:07  2 of 18 START test not_null_stg_station_usage_observed_year .................... [RUN]
+16:59:07  2 of 18 PASS not_null_stg_station_usage_observed_year .......................... [PASS in 0.09s]
+16:59:07  3 of 18 START test not_null_stg_station_usage_station_code ..................... [RUN]
+16:59:07  3 of 18 PASS not_null_stg_station_usage_station_code ........................... [PASS in 0.04s]
+16:59:07  4 of 18 START test not_null_stg_station_usage_station_name ..................... [RUN]
+16:59:07  4 of 18 PASS not_null_stg_station_usage_station_name ........................... [PASS in 0.04s]
+16:59:07  5 of 18 START sql table model analytics.dim_station ............................ [RUN]
+16:59:07  5 of 18 OK created sql table model analytics.dim_station ....................... [OK in 0.07s]
+16:59:07  6 of 18 START sql table model analytics.fct_station_usage ...................... [RUN]
+16:59:07  6 of 18 OK created sql table model analytics.fct_station_usage ................. [OK in 0.05s]
+16:59:07  7 of 18 START sql table model analytics.mart_station_year ...................... [RUN]
+16:59:07  7 of 18 OK created sql table model analytics.mart_station_year ................. [OK in 0.05s]
+16:59:07  8 of 18 START test not_null_dim_station_station_code ........................... [RUN]
+16:59:07  8 of 18 PASS not_null_dim_station_station_code ................................. [PASS in 0.02s]
+16:59:07  9 of 18 START test unique_dim_station_station_code ............................. [RUN]
+16:59:07  9 of 18 PASS unique_dim_station_station_code ................................... [PASS in 0.03s]
+16:59:07  10 of 18 START test fact_grain ................................................. [RUN]
+16:59:07  10 of 18 PASS fact_grain ....................................................... [PASS in 0.02s]
+16:59:07  11 of 18 START test nonnegative_movements ...................................... [RUN]
+16:59:07  11 of 18 PASS nonnegative_movements ............................................ [PASS in 0.02s]
+16:59:07  12 of 18 START test not_null_fct_station_usage_observed_year ................... [RUN]
+16:59:07  12 of 18 PASS not_null_fct_station_usage_observed_year ......................... [PASS in 0.02s]
+16:59:07  13 of 18 START test reconciles_to_source ....................................... [RUN]
+16:59:07  13 of 18 PASS reconciles_to_source ............................................. [PASS in 0.02s]
+16:59:07  14 of 18 START test relationships_fct_station_usage_station_code__station_code__ref_dim_station_  [RUN]
+16:59:07  14 of 18 PASS relationships_fct_station_usage_station_code__station_code__ref_dim_station_  [PASS in 0.04s]
+16:59:07  15 of 18 START sql table model analytics.mart_canton_year ...................... [RUN]
+16:59:07  15 of 18 OK created sql table model analytics.mart_canton_year ................. [OK in 0.04s]
+16:59:07  16 of 18 START sql table model analytics.mart_common_cohort_year ............... [RUN]
+16:59:07  16 of 18 OK created sql table model analytics.mart_common_cohort_year .......... [OK in 0.04s]
+16:59:07  17 of 18 START test canton_counts_reconcile .................................... [RUN]
+16:59:07  17 of 18 PASS canton_counts_reconcile .......................................... [PASS in 0.02s]
+16:59:07  18 of 18 START test cohort_is_constant ......................................... [RUN]
+16:59:07  18 of 18 PASS cohort_is_constant ............................................... [PASS in 0.01s]
+16:59:07
+16:59:07  Finished running 6 table models, 12 data tests in 0 hours 0 minutes and 1.12 seconds (1.12s).
+16:59:07
+16:59:07  Completed successfully
+16:59:07
+16:59:07  Done. PASS=18 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=18

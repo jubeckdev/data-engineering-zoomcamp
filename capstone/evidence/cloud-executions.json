@@ -1,0 +1,89 @@
+[
+  {
+    "id": "/subscriptions/673ff7ee-8141-4889-a7c0-65913427b7c5/resourceGroups/rg-zoomcamp-portfolio-dev/providers/Microsoft.App/jobs/job-swiss-rail/executions/job-swiss-rail-3evilpd",
+    "name": "job-swiss-rail-3evilpd",
+    "properties": {
+      "endTime": "2026-11-25T09:23:55+00:00",
+      "startTime": "2026-11-25T09:22:51+00:00",
+      "status": "Succeeded",
+      "template": {
+        "containers": [
+          {
+            "env": [
+              {
+                "name": "AZURE_CLIENT_ID",
+                "value": "dfe0c27f-cd31-4fad-b54e-a5e0aa4df03a"
+              },
+              {
+                "name": "STORAGE_ACCOUNT",
+                "value": "stzoomcamp673ff7ee"
+              },
+              {
+                "name": "SQL_SERVER",
+                "value": "sql-zoomcamp-673ff7ee-fc.database.windows.net"
+              },
+              {
+                "name": "SQL_DATABASE",
+                "value": "swiss-rail"
+              }
+            ],
+            "image": "acrzoomcamp673ff7ee.azurecr.io/swiss-rail-pipeline@sha256:291c97aa04fc6025743455eab6a600be644ccf98afb8d0163b0516d5a74cb27a",
+            "imageType": "ContainerImage",
+            "name": "pipeline",
+            "resources": {
+              "cpu": 1.0,
+              "ephemeralStorage": "",
+              "memory": "2Gi"
+            }
+          }
+        ],
+        "initContainers": []
+      }
+    },
+    "resourceGroup": "rg-zoomcamp-portfolio-dev",
+    "type": "Microsoft.App/jobs/executions"
+  },
+  {
+    "id": "/subscriptions/673ff7ee-8141-4889-a7c0-65913427b7c5/resourceGroups/rg-zoomcamp-portfolio-dev/providers/Microsoft.App/jobs/job-swiss-rail/executions/job-swiss-rail-38elmde",
+    "name": "job-swiss-rail-38elmde",
+    "properties": {
+      "startTime": "2026-11-24T17:01:46+00:00",
+      "status": "Failed",
+      "template": {
+        "containers": [
+          {
+            "env": [
+              {
+                "name": "AZURE_CLIENT_ID",
+                "value": "dfe0c27f-cd31-4fad-b54e-a5e0aa4df03a"
+              },
+              {
+                "name": "STORAGE_ACCOUNT",
+                "value": "stzoomcamp673ff7ee"
+              },
+              {
+                "name": "SQL_SERVER",
+                "value": "sql-zoomcamp-673ff7ee-fc.database.windows.net"
+              },
+              {
+                "name": "SQL_DATABASE",
+                "value": "swiss-rail"
+              }
+            ],
+            "image": "acrzoomcamp673ff7ee.azurecr.io/swiss-rail-pipeline@sha256:291c97aa04fc6025743455eab6a600be644ccf98afb8d0163b0516d5a74cb27a",
+            "imageType": "ContainerImage",
+            "name": "pipeline",
+            "resources": {
+              "cpu": 1.0,
+              "ephemeralStorage": "",
+              "memory": "2Gi"
+            }
+          }
+        ],
+        "initContainers": []
+      }
+    },
+    "resourceGroup": "rg-zoomcamp-portfolio-dev",
+    "type": "Microsoft.App/jobs/executions"
+  }
+]

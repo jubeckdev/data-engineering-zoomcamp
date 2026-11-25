@@ -1,0 +1,42 @@
+{
+  "observed_at_utc": "2026-11-23T11:38:44.179944+00:00",
+  "spark_version": "4.0.1",
+  "input_rows": 4181444,
+  "sources": {
+    "yellow_tripdata_2025-11.parquet": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-11.parquet",
+    "taxi_zone_lookup.csv": "https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv"
+  },
+  "sha256": {
+    "yellow_tripdata_2025-11.parquet": "2cf2f3127f96d4d5dea30f8afe05119cf8e4ba57bd9e60b789d3f296fc8459ab",
+    "taxi_zone_lookup.csv": "1a99e105092230f8620f301edcca7f80d3080642ff404d28ed957d3fa222c8ed"
+  },
+  "parquet_file_bytes": [
+    26583767,
+    26562682,
+    26558802,
+    26573748
+  ],
+  "average_mb": 26.56974975,
+  "average_mib": 25.338887929916382,
+  "november_15_trips": 162604,
+  "longest_trip_hours": "90.646666666667",
+  "spark_ui": "http://localhost:4040",
+  "spark_ui_http_status": 200,
+  "least_frequent_observed_pickup_zones": [
+    {
+      "LocationID": 5,
+      "Zone": "Arden Heights",
+      "count": 1
+    },
+    {
+      "LocationID": 84,
+      "Zone": "Eltingville/Annadale/Prince's Bay",
+      "count": 1
+    },
+    {
+      "LocationID": 105,
+      "Zone": "Governor's Island/Ellis Island/Liberty Island",
+      "count": 1
+    }
+  ]
+}

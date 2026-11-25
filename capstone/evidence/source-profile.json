@@ -1,0 +1,23 @@
+{
+  "fetched_at": "2026-11-24T16:58:58.810791+00:00",
+  "source_url": "https://data.sbb.ch/api/explore/v2.1/catalog/datasets/passagierfrequenz/exports/json",
+  "sha256": "796179093a4bfa5c456ecb0b936bbc3c05420ad74a7429a225d7063e2317ade4",
+  "rows": 5724,
+  "bytes": 2391585,
+  "counts_by_year": {
+    "2018": 1158,
+    "2022": 1159,
+    "2023": 1156,
+    "2024": 1156,
+    "2025": 1095
+  },
+  "publisher": "SBB Personenverkehr",
+  "license": {
+    "domain": "schweizerische-bundesbahnen-sbb",
+    "license": "terms_by",
+    "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired"
+  },
+  "source_modified": "2026-11-17T14:44:35+00:00",
+  "grain": "station code and reference year",
+  "metrics": "Average daily boardings plus alightings, not unique passengers or annual totals"
+}

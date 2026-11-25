@@ -1,0 +1,11 @@
+green_tripdata_2025-11.parquet: sha256=efcd45635c7982aa7ac832e5922c2e5495ebb5ce44e35491fea58d63fa7eba05
+taxi_zone_lookup.csv: sha256=598bfdd5170dcd8b9cfb5ec7f8dc283552e1b79cf0bcf3b7a0463fec1bfef115
+Loaded 46912 trips and 265 zones.
+['q3_short_trips']
+(8007,)
+['q4_pickup_day', 'longest_distance']
+(datetime.date(2025, 11, 14), 88.03)
+['q5_pickup_zone', 'total_amount']
+('East Harlem North', 9281.919999999996)
+['q6_dropoff_zone', 'largest_tip']
+('Yorkville West', 81.89)

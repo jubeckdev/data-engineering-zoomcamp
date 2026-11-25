@@ -1,0 +1,11 @@
+{
+  "verified_at": "2026-11-24T16:51:27.972755+00:00",
+  "status": "SUCCESS",
+  "physical_table_counts_match_manifest": true,
+  "table_count": 14,
+  "totals": {
+    "green": 570466,
+    "yellow": 15000700
+  },
+  "execution_id": "1sjRX7tNe36srMeodzCul9"
+}

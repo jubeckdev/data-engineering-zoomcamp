@@ -1,0 +1,7 @@
+*.parquet
+*.csv
+.terraform/
+*.tfstate*
+*.tfvars
+*.tfplan
+__pycache__/

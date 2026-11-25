@@ -1,0 +1,11 @@
+swiss_rail:
+  target: prod
+  outputs:
+    prod:
+      type: duckdb
+      path: "{{ env_var('CAPSTONE_DB_PATH', '../runtime/rail.duckdb') }}"
+      schema: analytics
+      threads: 1
+      settings:
+        memory_limit: 512MB
+        threads: 1

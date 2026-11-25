@@ -1,0 +1,8 @@
+name: swiss_rail
+version: '1.0.0'
+profile: swiss_rail
+model-paths: [models]
+test-paths: [tests]
+models:
+  swiss_rail:
+    +materialized: table

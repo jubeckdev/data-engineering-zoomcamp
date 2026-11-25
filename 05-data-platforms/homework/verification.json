@@ -1,0 +1,32 @@
+{
+  "verified_at": "2026-11-23T16:45:20.191613+00:00",
+  "bruin_version": "v0.11.831",
+  "run_order": [
+    "October 1 full refresh",
+    "October 2 incremental",
+    "October 1 rerun"
+  ],
+  "counts": {
+    "ingestion.trips": 406839,
+    "staging.trips": 270119,
+    "reports.trips_report": 19
+  },
+  "daily": [
+    [
+      "2025-10-01",
+      136720
+    ],
+    [
+      "2025-10-02",
+      133399
+    ]
+  ],
+  "checks": {
+    "no_duplicate_source_rows_in_staging": true,
+    "append_history_retained": true,
+    "first_day_report_unchanged": true,
+    "second_day_preserved": true,
+    "report_count_reconciles": true
+  },
+  "bruin_checks_per_run": 14
+}

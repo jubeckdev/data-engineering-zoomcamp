@@ -1,0 +1,142 @@
+{
+  "observed_at_utc": "2026-11-23T11:34:40.748351+00:00",
+  "source": "https://us-central1-dlthub-analytics.cloudfunctions.net/data_engineering_zoomcamp_api",
+  "dlt_version": "1.32.0",
+  "duckdb_version": "1.4.3",
+  "write_disposition": "replace",
+  "page_manifest": [
+    {
+      "page": 1,
+      "rows": 1000,
+      "sha256": "d6a25a3a5185e12cae51690e84b5043bfa698573f17d6050e4705b085b92f841"
+    },
+    {
+      "page": 2,
+      "rows": 1000,
+      "sha256": "8deda48640376c42fb4b00cf60665d07dd0743449279dfc20627e9bfdbfa554a"
+    },
+    {
+      "page": 3,
+      "rows": 1000,
+      "sha256": "86e1d99c43c2bdb6757ddef8dddfa15263afaada8d789a56b927ef2ad5035d93"
+    },
+    {
+      "page": 4,
+      "rows": 1000,
+      "sha256": "bfd89f3418b5aa49ab21e2a59f1fe236529ac6a96d95d4b77d21e9823a578a4f"
+    },
+    {
+      "page": 5,
+      "rows": 1000,
+      "sha256": "661738ea775b36b14227f7bcdcea697104213670452d41c096377707a129ca76"
+    },
+    {
+      "page": 6,
+      "rows": 1000,
+      "sha256": "5e0192ef83fe4f7bad49792110a0dc53be225decdee3b23684af9c2d5275c22f"
+    },
+    {
+      "page": 7,
+      "rows": 1000,
+      "sha256": "8f1d3971a6e99fdfa78389d1025326ce6a6876953dc514aade1674aa544319a3"
+    },
+    {
+      "page": 8,
+      "rows": 1000,
+      "sha256": "670236940704c6949475ce57416534cdbfdfeefeb58add6679e9c338120d1e87"
+    },
+    {
+      "page": 9,
+      "rows": 1000,
+      "sha256": "cfa6f760233da72f09fbace3671721ba05f3cf46372193e84c828b7d9025f3a9"
+    },
+    {
+      "page": 10,
+      "rows": 1000,
+      "sha256": "4b14fb50e733f6b87e96325b1ca46c9bd6ef13f85f6b65557e92f6d18498aa8e"
+    },
+    {
+      "page": 11,
+      "rows": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    }
+  ],
+  "source_rows": 10000,
+  "loaded_rows": 10000,
+  "queries": [
+    {
+      "columns": [
+        "earliest_pickup",
+        "latest_pickup",
+        "earliest_dropoff",
+        "latest_dropoff"
+      ],
+      "rows": [
+        [
+          "2009-06-01 11:33:00",
+          "2009-06-30 23:58:00",
+          "2009-06-01 11:48:00",
+          "2009-07-01 00:03:00"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "total_trips",
+        "credit_trips",
+        "credit_percentage"
+      ],
+      "rows": [
+        [
+          10000,
+          2666,
+          26.66
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "total_tips"
+      ],
+      "rows": [
+        [
+          "6063.41"
+        ]
+      ]
+    },
+    {
+      "columns": [
+        "payment_type",
+        "trips"
+      ],
+      "rows": [
+        [
+          "CASH",
+          7235
+        ],
+        [
+          "Credit",
+          2666
+        ],
+        [
+          "Cash",
+          97
+        ],
+        [
+          "Dispute",
+          1
+        ],
+        [
+          "No Charge",
+          1
+        ]
+      ]
+    }
+  ],
+  "rerun_check": {
+    "previous_observed_at_utc": "2026-11-23T11:33:39.723179+00:00",
+    "same_page_checksums": true,
+    "same_loaded_row_count": true,
+    "same_query_results": true
+  }
+}

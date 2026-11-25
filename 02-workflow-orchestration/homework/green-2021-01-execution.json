@@ -1,0 +1,172 @@
+{
+  "id": "1Kx3PBwj4Nq6JzMBfv9SYa",
+  "namespace": "zoomcamp.module2",
+  "flowId": "taxi_month",
+  "flowRevision": 1,
+  "taskRunList": [
+    {
+      "id": "5k7OW2xZbJmE4ihNDtl3pY",
+      "executionId": "1Kx3PBwj4Nq6JzMBfv9SYa",
+      "namespace": "zoomcamp.module2",
+      "flowId": "taxi_month",
+      "taskId": "filename",
+      "attempts": [
+        {
+          "state": {
+            "current": "SUCCESS",
+            "histories": [
+              {
+                "state": "CREATED",
+                "date": "2026-11-23T11:31:26.207968Z"
+              },
+              {
+                "state": "RUNNING",
+                "date": "2026-11-23T11:31:26.207971Z"
+              },
+              {
+                "state": "SUCCESS",
+                "date": "2026-11-23T11:31:26.272317Z"
+              }
+            ],
+            "duration": "PT0.064349S",
+            "startDate": "2026-11-23T11:31:26.207968Z",
+            "endDate": "2026-11-23T11:31:26.272317Z"
+          },
+          "workerId": "316b1d0e-62cd-4e32-8181-ca040eecd781"
+        }
+      ],
+      "outputs": {},
+      "state": {
+        "current": "SUCCESS",
+        "histories": [
+          {
+            "state": "CREATED",
+            "date": "2026-11-23T11:31:25.847393Z"
+          },
+          {
+            "state": "SUBMITTED",
+            "date": "2026-11-23T11:31:25.944178Z"
+          },
+          {
+            "state": "RUNNING",
+            "date": "2026-11-23T11:31:26.204172Z"
+          },
+          {
+            "state": "SUCCESS",
+            "date": "2026-11-23T11:31:26.274029Z"
+          }
+        ],
+        "duration": "PT0.426636S",
+        "startDate": "2026-11-23T11:31:25.847393Z",
+        "endDate": "2026-11-23T11:31:26.274029Z"
+      }
+    },
+    {
+      "id": "9CzodKSiI7y0WXpLzxf04",
+      "executionId": "1Kx3PBwj4Nq6JzMBfv9SYa",
+      "namespace": "zoomcamp.module2",
+      "flowId": "taxi_month",
+      "taskId": "ingest",
+      "attempts": [
+        {
+          "state": {
+            "current": "SUCCESS",
+            "histories": [
+              {
+                "state": "CREATED",
+                "date": "2026-11-23T11:31:26.470187Z"
+              },
+              {
+                "state": "RUNNING",
+                "date": "2026-11-23T11:31:26.470188Z"
+              },
+              {
+                "state": "SUCCESS",
+                "date": "2026-11-23T11:31:27.725674Z"
+              }
+            ],
+            "duration": "PT1.255487S",
+            "startDate": "2026-11-23T11:31:26.470187Z",
+            "endDate": "2026-11-23T11:31:27.725674Z"
+          },
+          "workerId": "316b1d0e-62cd-4e32-8181-ca040eecd781"
+        }
+      ],
+      "outputs": {
+        "vars": {
+          "sha256": "06a5ef09a6c3cf9fab195c369c7f67cd5cae600c264279e147f6d2a7abc76597",
+          "filename": "green_tripdata_2021-01.csv",
+          "row_count": 76518,
+          "uncompressed_mib": 6.592,
+          "uncompressed_bytes": 6912251
+        },
+        "exitCode": 0,
+        "outputFiles": {}
+      },
+      "state": {
+        "current": "SUCCESS",
+        "histories": [
+          {
+            "state": "CREATED",
+            "date": "2026-11-23T11:31:26.407803Z"
+          },
+          {
+            "state": "SUBMITTED",
+            "date": "2026-11-23T11:31:26.440110Z"
+          },
+          {
+            "state": "RUNNING",
+            "date": "2026-11-23T11:31:26.469749Z"
+          },
+          {
+            "state": "SUCCESS",
+            "date": "2026-11-23T11:31:27.734671Z"
+          }
+        ],
+        "duration": "PT1.326868S",
+        "startDate": "2026-11-23T11:31:26.407803Z",
+        "endDate": "2026-11-23T11:31:27.734671Z"
+      }
+    }
+  ],
+  "inputs": {
+    "taxi": "green",
+    "year": "2021",
+    "month": "01"
+  },
+  "labels": [
+    {
+      "key": "system.correlationId",
+      "value": "1Kx3PBwj4Nq6JzMBfv9SYa"
+    }
+  ],
+  "variables": {
+    "file": "{{ inputs.taxi }}_tripdata_{{ inputs.year }}-{{ inputs.month }}.csv"
+  },
+  "state": {
+    "current": "SUCCESS",
+    "histories": [
+      {
+        "state": "CREATED",
+        "date": "2026-11-23T11:31:25.338112Z"
+      },
+      {
+        "state": "RUNNING",
+        "date": "2026-11-23T11:31:25.884568Z"
+      },
+      {
+        "state": "SUCCESS",
+        "date": "2026-11-23T11:31:28.012027Z"
+      }
+    ],
+    "duration": "PT2.673915S",
+    "startDate": "2026-11-23T11:31:25.338112Z",
+    "endDate": "2026-11-23T11:31:28.012027Z"
+  },
+  "originalId": "1Kx3PBwj4Nq6JzMBfv9SYa",
+  "deleted": false,
+  "metadata": {
+    "attemptNumber": 1,
+    "originalCreatedDate": "2026-11-23T11:31:25.338404Z"
+  }
+}

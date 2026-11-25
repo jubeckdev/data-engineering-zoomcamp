@@ -1,0 +1,5 @@
+kafka-python==2.2.15
+pandas==2.3.3
+pyarrow==22.0.0
+psycopg2-binary==2.9.11
+duckdb==1.4.3

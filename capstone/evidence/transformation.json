@@ -1,0 +1,57 @@
+{
+  "artifacts": {
+    "dim_station": {
+      "layer": "silver",
+      "path": "capstone/runtime/silver/dim_station.parquet",
+      "rows": 1178
+    },
+    "fct_station_usage": {
+      "layer": "silver",
+      "path": "capstone/runtime/silver/fct_station_usage.parquet",
+      "rows": 5724
+    },
+    "mart_station_year": {
+      "layer": "gold",
+      "path": "capstone/runtime/gold/mart_station_year.parquet",
+      "rows": 5724
+    },
+    "mart_canton_year": {
+      "layer": "gold",
+      "path": "capstone/runtime/gold/mart_canton_year.parquet",
+      "rows": 130
+    },
+    "mart_common_cohort_year": {
+      "layer": "gold",
+      "path": "capstone/runtime/gold/mart_common_cohort_year.parquet",
+      "rows": 5
+    }
+  },
+  "cohort": [
+    [
+      2018,
+      1068,
+      "3648717.00"
+    ],
+    [
+      2022,
+      1068,
+      "3395306.00"
+    ],
+    [
+      2023,
+      1068,
+      "3884009.00"
+    ],
+    [
+      2024,
+      1068,
+      "4009078.00"
+    ],
+    [
+      2025,
+      1068,
+      "4161383.00"
+    ]
+  ],
+  "source_rows": 5724
+}

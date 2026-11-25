@@ -1,0 +1,156 @@
+[
+  {
+    "filename": "green_tripdata_2021-01.csv",
+    "taxi": "green",
+    "year": 2021,
+    "month": 1,
+    "row_count": 76518,
+    "uncompressed_bytes": 6912251,
+    "sha256": "06a5ef09a6c3cf9fab195c369c7f67cd5cae600c264279e147f6d2a7abc76597",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2021-01.csv.gz",
+    "loaded_at": "2026-11-24T16:22:22.73896+00:00"
+  },
+  {
+    "filename": "green_tripdata_2021-02.csv",
+    "taxi": "green",
+    "year": 2021,
+    "month": 2,
+    "row_count": 64572,
+    "uncompressed_bytes": 5835331,
+    "sha256": "3e90b65e74ac09d571c8e51a88ca372286e33d412ba5c3e80f85a7725e6f418b",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2021-02.csv.gz",
+    "loaded_at": "2026-11-24T16:43:52.668467+00:00"
+  },
+  {
+    "filename": "green_tripdata_2021-03.csv",
+    "taxi": "green",
+    "year": 2021,
+    "month": 3,
+    "row_count": 83827,
+    "uncompressed_bytes": 7558871,
+    "sha256": "3e4fb09a37debe23e7ac9094057255bf2c452653c50acb22eb0849c908111d0c",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2021-03.csv.gz",
+    "loaded_at": "2026-11-24T16:44:09.419412+00:00"
+  },
+  {
+    "filename": "green_tripdata_2021-04.csv",
+    "taxi": "green",
+    "year": 2021,
+    "month": 4,
+    "row_count": 86941,
+    "uncompressed_bytes": 7843615,
+    "sha256": "58813368de70c25f0bffa0a795473190c12bae224534d33c464f64cdc7fb6b60",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2021-04.csv.gz",
+    "loaded_at": "2026-11-24T16:44:22.416765+00:00"
+  },
+  {
+    "filename": "green_tripdata_2021-05.csv",
+    "taxi": "green",
+    "year": 2021,
+    "month": 5,
+    "row_count": 88180,
+    "uncompressed_bytes": 7980769,
+    "sha256": "8f6533ef79ece6173b68a5864f885dab8903f706b8fb955fee2cae202fadff35",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2021-05.csv.gz",
+    "loaded_at": "2026-11-24T16:44:41.94122+00:00"
+  },
+  {
+    "filename": "green_tripdata_2021-06.csv",
+    "taxi": "green",
+    "year": 2021,
+    "month": 6,
+    "row_count": 86737,
+    "uncompressed_bytes": 7878004,
+    "sha256": "f576ae8b9f8246836fe5f7ba0ddad67e166979676b42a2b604fab3ea626eadd3",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2021-06.csv.gz",
+    "loaded_at": "2026-11-24T16:45:01.81779+00:00"
+  },
+  {
+    "filename": "green_tripdata_2021-07.csv",
+    "taxi": "green",
+    "year": 2021,
+    "month": 7,
+    "row_count": 83691,
+    "uncompressed_bytes": 7591709,
+    "sha256": "e16a31ed3f787e7f5265809fdfb4bbe964732b336629a4478a18c4f3b2cf9187",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2021-07.csv.gz",
+    "loaded_at": "2026-11-24T16:45:37.868253+00:00"
+  },
+  {
+    "filename": "yellow_tripdata_2021-01.csv",
+    "taxi": "yellow",
+    "year": 2021,
+    "month": 1,
+    "row_count": 1369765,
+    "uncompressed_bytes": 125981363,
+    "sha256": "a28a046c349cfa3c364c6775e4ec0ce4dd32d68482d5488d1a5cf51e9f6738a4",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz",
+    "loaded_at": "2026-11-24T16:22:30.803143+00:00"
+  },
+  {
+    "filename": "yellow_tripdata_2021-02.csv",
+    "taxi": "yellow",
+    "year": 2021,
+    "month": 2,
+    "row_count": 1371708,
+    "uncompressed_bytes": 126236413,
+    "sha256": "f5e13c655bf85e3110db52e320f9a427b36db94cfc170d4c04f7ff776fd098e3",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-02.csv.gz",
+    "loaded_at": "2026-11-24T16:44:04.454599+00:00"
+  },
+  {
+    "filename": "yellow_tripdata_2021-03.csv",
+    "taxi": "yellow",
+    "year": 2021,
+    "month": 3,
+    "row_count": 1925152,
+    "uncompressed_bytes": 177416284,
+    "sha256": "aaa9e7315c181bd81825dd45cbfec7dfafb86d8eccafb01c143e64a0ceb5d7e4",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-03.csv.gz",
+    "loaded_at": "2026-11-24T16:44:15.674885+00:00"
+  },
+  {
+    "filename": "yellow_tripdata_2021-04.csv",
+    "taxi": "yellow",
+    "year": 2021,
+    "month": 4,
+    "row_count": 2171187,
+    "uncompressed_bytes": 200507007,
+    "sha256": "09724fada398032e6d5620dc062f60c48feb277657a8e6bf9c9fddf9a44457e3",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-04.csv.gz",
+    "loaded_at": "2026-11-24T16:44:30.239105+00:00"
+  },
+  {
+    "filename": "yellow_tripdata_2021-05.csv",
+    "taxi": "yellow",
+    "year": 2021,
+    "month": 5,
+    "row_count": 2507109,
+    "uncompressed_bytes": 231988884,
+    "sha256": "99b598598f32e0e28b2607112873db42c13aa4381c9af29c61b498a08ad0a31c",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-05.csv.gz",
+    "loaded_at": "2026-11-24T16:44:52.200398+00:00"
+  },
+  {
+    "filename": "yellow_tripdata_2021-06.csv",
+    "taxi": "yellow",
+    "year": 2021,
+    "month": 6,
+    "row_count": 2834264,
+    "uncompressed_bytes": 262656180,
+    "sha256": "a366c26144c4227062e968503b66aa997ed08b8d7599dfe13d78e5f4b88bea82",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-06.csv.gz",
+    "loaded_at": "2026-11-24T16:45:24.718343+00:00"
+  },
+  {
+    "filename": "yellow_tripdata_2021-07.csv",
+    "taxi": "yellow",
+    "year": 2021,
+    "month": 7,
+    "row_count": 2821515,
+    "uncompressed_bytes": 261410655,
+    "sha256": "21ce2a847a66d6d7710af7ae15dc4a833e227a08db24104e8d760fd1e37be590",
+    "source_url": "https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-07.csv.gz",
+    "loaded_at": "2026-11-24T16:45:48.085868+00:00"
+  }
+]

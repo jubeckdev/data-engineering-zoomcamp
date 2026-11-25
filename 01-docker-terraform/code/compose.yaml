@@ -1,0 +1,41 @@
+name: zoomcamp-module1
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ny_taxi
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      default:
+        aliases: [postgres]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d ny_taxi"]
+      interval: 2s
+      timeout: 5s
+      retries: 30
+  pgadmin:
+    image: dpage/pgadmin4:9.10
+    profiles: [ui]
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pgadmin@pgadmin.com
+      PGADMIN_DEFAULT_PASSWORD: pgadmin
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+  ingest:
+    build: .
+    profiles: [tools]
+    environment:
+      DATABASE_URL: postgresql+psycopg2://postgres:postgres@db:5432/ny_taxi
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  pgdata:
+  pgadmin:

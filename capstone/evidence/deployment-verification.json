@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-11-25T10:01:18.078080+00:00",
+  "name": "job-swiss-rail",
+  "location": "Switzerland North",
+  "provisioning_state": "Succeeded",
+  "trigger_type": "Schedule",
+  "schedule": {
+    "cronExpression": "0 6 1 * *",
+    "parallelism": 1,
+    "replicaCompletionCount": 1
+  },
+  "replica_timeout_seconds": 900,
+  "retry_limit": 1,
+  "image": "acrzoomcamp673ff7ee.azurecr.io/swiss-rail-pipeline@sha256:291c97aa04fc6025743455eab6a600be644ccf98afb8d0163b0516d5a74cb27a",
+  "resources": {
+    "cpu": 1,
+    "memory": "2Gi"
+  },
+  "terraform_no_drift": true,
+  "temporary_operator_sql_firewall_removed": true
+}

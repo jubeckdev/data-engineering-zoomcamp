@@ -1,0 +1,23 @@
+taxi_rides_ny:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../runtime/taxi_rides_ny.duckdb
+      schema: dev
+      threads: 1
+      settings:
+        memory_limit: 8GB
+        max_temp_directory_size: 12GB
+        threads: 1
+        preserve_insertion_order: false
+    prod:
+      type: duckdb
+      path: ../runtime/taxi_rides_ny.duckdb
+      schema: prod
+      threads: 1
+      settings:
+        memory_limit: 8GB
+        max_temp_directory_size: 12GB
+        threads: 1
+        preserve_insertion_order: false

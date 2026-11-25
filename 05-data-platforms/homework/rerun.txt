@@ -1,0 +1,89 @@
+Analyzed the pipeline 'nyc_taxi_portfolio' with 4 assets.
+
+Pipeline: nyc_taxi_portfolio (..)
+  No issues found
+
+✓ Successfully validated 4 assets across 1 pipeline, all good.
+
+Interval: 2025-10-01T00:00:00Z - 2025-10-01T23:59:59Z
+
+Starting the pipeline execution...
+
+[17:42:08] Running:  ingestion.payment_lookup
+[17:42:08] [ingestion.payment_lookup] >>
+[17:42:08] [ingestion.payment_lookup] >>
+[17:42:08] [ingestion.payment_lookup] >> Initiated the pipeline with the following:
+[17:42:08] [ingestion.payment_lookup] >> Source: csv / seed.raw
+[17:42:08] [ingestion.payment_lookup] >> Destination: duckdb / ingestion.payment_lookup
+[17:42:08] [ingestion.payment_lookup] >> Incremental Strategy: replace
+[17:42:08] [ingestion.payment_lookup] >> Incremental Key: None
+[17:42:08] [ingestion.payment_lookup] >> Primary Key: payment_type_id
+[17:42:08] [ingestion.payment_lookup] >>
+[17:42:08] [ingestion.payment_lookup] >>
+[17:42:08] [ingestion.payment_lookup] >> Column override: "payment_type_id" type changed from string(p=0,s=0,len=0) to int32(p=0,s=0,len=0)
+[17:42:08] [ingestion.payment_lookup] >>
+[17:42:08] [ingestion.payment_lookup] >> Starting data ingestion...
+[17:42:08] [ingestion.payment_lookup] >> [STRATEGY] 17:42:08 | Using staging table: ingestion.payment_lookup_staging_d21b12275cb74ef69936a373e16725c5
+[17:42:08] [ingestion.payment_lookup] >> [PROGRESS] 17:42:08 | Rows: 7 | Batches: 1 | Rate: 904 rows/s | CPU: 106.2% | Mem: 152 MB
+[17:42:08] [ingestion.payment_lookup] >>
+[17:42:08] [ingestion.payment_lookup] >> ┌────────────────┬────────────┐
+[17:42:08] [ingestion.payment_lookup] >> │     METRIC     │   VALUE    │
+[17:42:08] [ingestion.payment_lookup] >> ├────────────────┼────────────┤
+[17:42:08] [ingestion.payment_lookup] >> │ Total Rows     │          7 │
+[17:42:08] [ingestion.payment_lookup] >> │ Total Batches  │          1 │
+[17:42:08] [ingestion.payment_lookup] >> │ Duration       │       0.0s │
+[17:42:08] [ingestion.payment_lookup] >> │ Avg Throughput │ 893 rows/s │
+[17:42:08] [ingestion.payment_lookup] >> │ Peak Memory    │     152 MB │
+[17:42:08] [ingestion.payment_lookup] >> └────────────────┴────────────┘
+[17:42:08] [ingestion.payment_lookup] >> Ingestion completed successfully!
+[17:42:08] Finished: ingestion.payment_lookup (207ms)
+[17:42:08] Running:  ingestion.trips
+[17:42:08] [ingestion.trips] >> Installed 1 package in 13ms
+[17:42:09] [ingestion.trips] Successfully collected the data from the asset, uploading to the destination...
+[17:42:10] [ingestion.trips] Successfully loaded the data from the asset into the destination.
+[17:42:10] Finished: ingestion.trips (2.394s)
+[17:42:10] Running:  ingestion.payment_lookup:payment_type_id:not_null
+[17:42:10] Finished: ingestion.payment_lookup:payment_type_id:not_null (14ms)
+[17:42:10] Running:  ingestion.payment_lookup:payment_type_id:unique
+[17:42:10] Finished: ingestion.payment_lookup:payment_type_id:unique (1ms)
+[17:42:10] Running:  ingestion.payment_lookup:payment_type_name:not_null
+[17:42:10] Finished: ingestion.payment_lookup:payment_type_name:not_null (0s)
+[17:42:10] Running:  ingestion.trips:source_row_id:not_null
+[17:42:10] Finished: ingestion.trips:source_row_id:not_null (0s)
+[17:42:10] Running:  ingestion.trips:pickup_datetime:not_null
+[17:42:10] Finished: ingestion.trips:pickup_datetime:not_null (0s)
+[17:42:10] Running:  staging.trips
+[17:42:11] Finished: staging.trips (462ms)
+[17:42:11] Running:  staging.trips:source_row_id:unique
+[17:42:11] Finished: staging.trips:source_row_id:unique (24ms)
+[17:42:11] Running:  staging.trips:source_row_id:not_null
+[17:42:11] Finished: staging.trips:source_row_id:not_null (0s)
+[17:42:11] Running:  staging.trips:pickup_datetime:not_null
+[17:42:11] Finished: staging.trips:pickup_datetime:not_null (0s)
+[17:42:11] Running:  staging.trips:payment_type_name:not_null
+[17:42:11] Finished: staging.trips:payment_type_name:not_null (0s)
+[17:42:11] Running:  staging.trips:custom-check:nonempty
+[17:42:11] Finished: staging.trips:custom-check:nonempty (1ms)
+[17:42:11] Running:  reports.trips_report
+[17:42:11] Finished: reports.trips_report (14ms)
+[17:42:11] Running:  reports.trips_report:trip_date:not_null
+[17:42:11] Finished: reports.trips_report:trip_date:not_null (0s)
+[17:42:11] Running:  reports.trips_report:trip_count:non_negative
+[17:42:11] Finished: reports.trips_report:trip_count:non_negative (0s)
+[17:42:11] Running:  reports.trips_report:custom-check:unique_report_grain
+[17:42:11] Finished: reports.trips_report:custom-check:unique_report_grain (1ms)
+[17:42:11] Running:  reports.trips_report:custom-check:reconciles_to_staging
+[17:42:11] Finished: reports.trips_report:custom-check:reconciles_to_staging (1ms)
+
+==================================================
+
+PASS ingestion.payment_lookup ...
+PASS ingestion.trips ..
+PASS staging.trips .....
+PASS reports.trips_report ....
+
+
+bruin run completed successfully in 3.127s
+
+ ✓ Assets executed      4 succeeded
+ ✓ Quality checks       14 succeeded

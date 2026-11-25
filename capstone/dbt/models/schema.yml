@@ -1,0 +1,23 @@
+models:
+  - name: stg_station_usage
+    columns:
+      - name: station_code
+        data_tests: [not_null]
+      - name: observed_year
+        data_tests: [not_null]
+      - name: station_name
+        data_tests: [not_null]
+  - name: dim_station
+    columns:
+      - name: station_code
+        data_tests: [unique, not_null]
+  - name: fct_station_usage
+    columns:
+      - name: station_code
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_station')
+                field: station_code
+      - name: observed_year
+        data_tests: [not_null]

@@ -1,0 +1,125 @@
+Analyzed the pipeline 'nyc_taxi_portfolio' with 4 assets.
+Installing the DuckDB ADBC driver v1.5.2...
+
+Pipeline: nyc_taxi_portfolio (..)
+  No issues found
+
+✓ Successfully validated 4 assets across 1 pipeline, all good.
+
+Interval: 2025-10-01T00:00:00Z - 2025-10-01T23:59:59Z
+
+Starting the pipeline execution...
+
+[17:38:44] Running:  ingestion.payment_lookup
+[17:38:44] [ingestion.payment_lookup] Installing ingestr v1.1.95...
+[17:38:44] [ingestion.payment_lookup] bruin-data/ingestr info found version: 1.1.95 for v1.1.95/Darwin/arm64
+[17:38:44] [ingestion.payment_lookup] bruin-data/ingestr info downloading ingestr 1.1.95...
+[17:39:03] [ingestion.payment_lookup] bruin-data/ingestr info ingestr 1.1.95 installed to $HOME/.bruin/ingestr/.install-1.1.95-2830786002
+[17:39:03] [ingestion.payment_lookup] bruin-data/ingestr info # Unable to automatically add to your shell's configuration file.
+[17:39:03] [ingestion.payment_lookup] bruin-data/ingestr info # Please manually add the following line to your shell's configuration file to make it permanent:
+[17:39:03] [ingestion.payment_lookup] bruin-data/ingestr info #   export PATH="$PATH:$HOME/.bruin/ingestr/.install-1.1.95-2830786002"
+[17:39:03] [ingestion.payment_lookup]
+[17:39:03] [ingestion.payment_lookup]   ingestr 1.1.95 has been installed successfully!
+[17:39:03] [ingestion.payment_lookup]   Please restart your shell or run: source ~/.bruin-installerrc
+
+[17:39:07] [ingestion.payment_lookup] >>
+[17:39:07] [ingestion.payment_lookup] >>
+[17:39:07] [ingestion.payment_lookup] >> Initiated the pipeline with the following:
+[17:39:07] [ingestion.payment_lookup] >> Source: csv / seed.raw
+[17:39:07] [ingestion.payment_lookup] >> Destination: duckdb / ingestion.payment_lookup
+[17:39:07] [ingestion.payment_lookup] >> Incremental Strategy: replace
+[17:39:07] [ingestion.payment_lookup] >> Incremental Key: None
+[17:39:07] [ingestion.payment_lookup] >> Primary Key: payment_type_id
+[17:39:07] [ingestion.payment_lookup] >>
+[17:39:07] [ingestion.payment_lookup] >>
+[17:39:07] [ingestion.payment_lookup] >> Column override: "payment_type_id" type changed from string(p=0,s=0,len=0) to int32(p=0,s=0,len=0)
+[17:39:07] [ingestion.payment_lookup] >>
+[17:39:07] [ingestion.payment_lookup] >> Starting data ingestion...
+[17:39:07] [ingestion.payment_lookup] >> [STRATEGY] 17:39:07 | Using staging table: ingestion.payment_lookup_staging_dd0c0a08553842d9bb020ad02bfb218a
+[17:39:07] [ingestion.payment_lookup] >> [PROGRESS] 17:39:07 | Rows: 7 | Batches: 1 | Rate: 378 rows/s | CPU: 8.1% | Mem: 155 MB
+[17:39:07] [ingestion.payment_lookup] >>
+[17:39:07] [ingestion.payment_lookup] >> ┌────────────────┬────────────┐
+[17:39:07] [ingestion.payment_lookup] >> │     METRIC     │   VALUE    │
+[17:39:07] [ingestion.payment_lookup] >> ├────────────────┼────────────┤
+[17:39:07] [ingestion.payment_lookup] >> │ Total Rows     │          7 │
+[17:39:07] [ingestion.payment_lookup] >> │ Total Batches  │          1 │
+[17:39:07] [ingestion.payment_lookup] >> │ Duration       │       0.0s │
+[17:39:07] [ingestion.payment_lookup] >> │ Avg Throughput │ 374 rows/s │
+[17:39:07] [ingestion.payment_lookup] >> │ Peak Memory    │     155 MB │
+[17:39:07] [ingestion.payment_lookup] >> └────────────────┴────────────┘
+[17:39:07] [ingestion.payment_lookup] >> Ingestion completed successfully!
+[17:39:07] Finished: ingestion.payment_lookup (23.504s)
+[17:39:07] Running:  ingestion.trips
+[17:39:07] [ingestion.trips] ===============================
+[17:39:07] [ingestion.trips] Installing uv v0.11.33...
+[17:39:07] [ingestion.trips] This is a one-time operation.
+[17:39:07] [ingestion.trips]
+[17:39:08] [ingestion.trips] downloading uv 0.11.33 aarch64-apple-darwin
+[17:39:10] [ingestion.trips] installing to $HOME/.bruin
+[17:39:10] [ingestion.trips]   uv
+[17:39:10] [ingestion.trips]   uvx
+[17:39:10] [ingestion.trips] everything's installed!
+[17:39:10] [ingestion.trips]
+[17:39:10] [ingestion.trips] Installed uv v0.11.33, continuing...
+[17:39:10] [ingestion.trips] ===============================
+[17:39:10] [ingestion.trips]
+[17:39:12] [ingestion.trips] >> Downloading cpython-3.13.14-macos-aarch64-none (download) (24.0MiB)
+[17:39:15] [ingestion.trips] >>  Downloaded cpython-3.13.14-macos-aarch64-none (download)
+[17:39:18] [ingestion.trips] >> Downloading pyarrow (28.1MiB)
+[17:39:25] [ingestion.trips] >>  Downloaded pyarrow
+[17:39:25] [ingestion.trips] >> Installed 1 package in 11ms
+[17:39:26] [ingestion.trips] >> Downloading pandas (10.2MiB)
+[17:39:26] [ingestion.trips] >> Downloading pyarrow (32.6MiB)
+[17:39:26] [ingestion.trips] >> Downloading numpy (5.3MiB)
+[17:39:28] [ingestion.trips] >>  Downloaded numpy
+[17:39:29] [ingestion.trips] >>  Downloaded pandas
+[17:39:42] [ingestion.trips] >>  Downloaded pyarrow
+[17:39:42] [ingestion.trips] >> Installed 6 packages in 63ms
+[17:40:37] [ingestion.trips] Successfully collected the data from the asset, uploading to the destination...
+[17:40:39] [ingestion.trips] Successfully loaded the data from the asset into the destination.
+[17:40:39] Finished: ingestion.trips (1m32.036s)
+[17:40:39] Running:  ingestion.payment_lookup:payment_type_id:not_null
+[17:40:39] Finished: ingestion.payment_lookup:payment_type_id:not_null (19ms)
+[17:40:39] Running:  ingestion.payment_lookup:payment_type_id:unique
+[17:40:39] Finished: ingestion.payment_lookup:payment_type_id:unique (1ms)
+[17:40:39] Running:  ingestion.payment_lookup:payment_type_name:not_null
+[17:40:39] Finished: ingestion.payment_lookup:payment_type_name:not_null (0s)
+[17:40:39] Running:  ingestion.trips:source_row_id:not_null
+[17:40:39] Finished: ingestion.trips:source_row_id:not_null (0s)
+[17:40:39] Running:  ingestion.trips:pickup_datetime:not_null
+[17:40:39] Finished: ingestion.trips:pickup_datetime:not_null (0s)
+[17:40:39] Running:  staging.trips
+[17:40:40] Finished: staging.trips (613ms)
+[17:40:40] Running:  staging.trips:source_row_id:unique
+[17:40:40] Finished: staging.trips:source_row_id:unique (31ms)
+[17:40:40] Running:  staging.trips:source_row_id:not_null
+[17:40:40] Finished: staging.trips:source_row_id:not_null (1ms)
+[17:40:40] Running:  staging.trips:pickup_datetime:not_null
+[17:40:40] Finished: staging.trips:pickup_datetime:not_null (0s)
+[17:40:40] Running:  staging.trips:payment_type_name:not_null
+[17:40:40] Finished: staging.trips:payment_type_name:not_null (0s)
+[17:40:40] Running:  staging.trips:custom-check:nonempty
+[17:40:40] Finished: staging.trips:custom-check:nonempty (1ms)
+[17:40:40] Running:  reports.trips_report
+[17:40:40] Finished: reports.trips_report (15ms)
+[17:40:40] Running:  reports.trips_report:trip_date:not_null
+[17:40:40] Finished: reports.trips_report:trip_date:not_null (1ms)
+[17:40:40] Running:  reports.trips_report:trip_count:non_negative
+[17:40:40] Finished: reports.trips_report:trip_count:non_negative (3ms)
+[17:40:40] Running:  reports.trips_report:custom-check:unique_report_grain
+[17:40:40] Finished: reports.trips_report:custom-check:unique_report_grain (13ms)
+[17:40:40] Running:  reports.trips_report:custom-check:reconciles_to_staging
+[17:40:40] Finished: reports.trips_report:custom-check:reconciles_to_staging (3ms)
+
+==================================================
+
+PASS ingestion.payment_lookup ...
+PASS ingestion.trips ..
+PASS staging.trips .....
+PASS reports.trips_report ....
+
+
+bruin run completed successfully in 1m56.251s
+
+ ✓ Assets executed      4 succeeded
+ ✓ Quality checks       14 succeeded

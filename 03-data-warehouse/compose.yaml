@@ -1,0 +1,7 @@
+name: zoomcamp-warehouse
+services:
+  verify:
+    build: ./code
+    volumes:
+      - ./runtime:/app/runtime
+      - ./homework:/app/homework

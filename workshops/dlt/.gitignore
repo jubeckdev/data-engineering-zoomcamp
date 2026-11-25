@@ -1,0 +1,5 @@
+runtime/
+__pycache__/
+.venv/
+.dlt/secrets.toml
+*.duckdb*

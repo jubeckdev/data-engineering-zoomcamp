@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-25T09:59:23.234442+00:00",
+  "scope": "resource group rg-zoomcamp-portfolio-dev",
+  "timeframe": "MonthToDate",
+  "reported_cost": {
+    "columns": [
+      {
+        "name": "PreTaxCost",
+        "type": "Number"
+      },
+      {
+        "name": "Currency",
+        "type": "String"
+      }
+    ],
+    "nextLink": null,
+    "rows": [
+      [
+        0.161857482292742,
+        "EUR"
+      ]
+    ]
+  },
+  "subscription_state": "Enabled",
+  "spending_limit": "On",
+  "caveat": "Usage reporting can lag and may not yet include all new SQL, registry and job charges. This is not a real-time credit balance or guaranteed final total."
+}

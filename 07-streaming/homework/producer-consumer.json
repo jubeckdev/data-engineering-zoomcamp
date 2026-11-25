@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-11-23T16:52:07.461060+00:00",
+  "source_sha256": "b124d57fb63fe610d085ce9ebef1528c082932313d86133a33d9c7a000883fe6",
+  "source_rows": 49416,
+  "produced_and_acknowledged": 49416,
+  "consumed": 49416,
+  "end_offset": 49416,
+  "send_and_flush_seconds": 3.035791999893263,
+  "trip_distance_gt_5": 8506,
+  "event_order": "stable ascending pickup timestamp",
+  "partition_count": 1
+}
